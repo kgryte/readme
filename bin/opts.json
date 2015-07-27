@@ -1,0 +1,28 @@
+{
+	"string": [
+		"template",
+		"title",
+		"description",
+		"repo",
+		"license",
+		"holder"
+	],
+	"boolean": [
+		"help",
+		"version"
+	],
+	"alias": {
+		"help": [
+			"h"
+		],
+		"version": [
+			"V"
+		],
+		"template": [
+			"tmpl"
+		],
+		"description": [
+			"desc"
+		]
+	}
+}
