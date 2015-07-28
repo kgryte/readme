@@ -1,6 +1,6 @@
 {
   "name": "@kgryte/readme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Creates a README.md file.",
   "author": {
     "name": "Athan Reines",
