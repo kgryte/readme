@@ -138,7 +138,7 @@ describe( 'sync', function tests() {
 		assert.isTrue( bool );
 	});
 
-	it( 'should supported alternative licenses', function test() {
+	it( 'should support alternative licenses', function test() {
 		var dirpath,
 			fpath1,
 			fpath2,
