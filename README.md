@@ -38,7 +38,7 @@ The function accepts the following `options`:
 *	__title__: title. Default: `''`.
 *	__desc__: description. Default: `''`.
 *	__repo__: Github repository.
-*	__license__: license. Default: [`'MIT'`](http://opensource.org/licenses/MIT)'`.
+*	__license__: license. Default: [`'MIT'`](http://opensource.org/licenses/MIT).
 *	__holder__: copyright holder.
 
 By default, a `node_module` template is used. To specify a different `README.md` template, set the `template` option.
