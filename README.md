@@ -35,10 +35,10 @@ function onCreate( error ) {
 
 The function accepts the following `options`:
 *	__template__: `README.md` template name. Default: `'node_module'`.
-*	__title__: README title. Default: `''`.
+*	__title__: title. Default: `''`.
 *	__desc__: description. Default: `''`.
 *	__repo__: Github repository.
-*	__license__: license. Default: `'MIT'`.
+*	__license__: license. Default: `'[MIT](http://opensource.org/licenses/MIT)'`.
 *	__holder__: copyright holder.
 
 By default, a `node_module` template is used. To specify a different `README.md` template, set the `template` option.
