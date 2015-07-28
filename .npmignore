@@ -2,7 +2,7 @@
 # Files #
 #########
 Makefile
-README.md
+/README.md
 TODO.md
 
 # Directories #
