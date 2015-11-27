@@ -45,7 +45,7 @@ $ node ./examples/index.js
 
 ### Unit
 
-Unit tests use the [Mocha](http://mochajs.org/) test framework with [Chai](http://chaijs.com) assertions. To run the tests, execute the following command in the top-level application directory:
+Unit tests use the [Mocha][mocha] test framework with [Chai][chai] assertions. To run the tests, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test
@@ -56,7 +56,7 @@ All new feature development should have corresponding unit tests to validate cor
 
 ### Test Coverage
 
-This repository uses [Istanbul](https://github.com/gotwarlost/istanbul) as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
+This repository uses [Istanbul][istanbul] as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test-cov
@@ -97,3 +97,7 @@ Copyright &copy; 2015. Jane Doe.
 
 [github-issues-image]: http://img.shields.io/github/issues/jane/example.svg
 [github-issues-url]: https://github.com/jane/example/issues
+
+[mocha]: http://mochajs.org/
+[chai]: http://chaijs.com
+[istanbul]: https://github.com/gotwarlost/istanbul
