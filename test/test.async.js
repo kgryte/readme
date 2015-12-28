@@ -164,7 +164,17 @@ describe( 'async', function tests() {
 			'desc': 'Beep boop.',
 			'repo': 'jane/example',
 			'license': 'MIT',
-			'holder': 'Jane Doe'
+			'holder': 'Jane Doe',
+			'sections': [
+				'badges',
+				'installation',
+				'usage',
+				'examples',
+				'tests',
+				'tests.unit',
+				'tests.coverage',
+				'license'
+			]
 		}, onFinish );
 
 		function onFinish( error ) {
@@ -288,7 +298,17 @@ describe( 'async', function tests() {
 			'desc': 'Beep boop.',
 			'repo': 'jane/example',
 			'license': 'WTFPL',
-			'holder': 'Jane Doe'
+			'holder': 'Jane Doe',
+			'sections': [
+				'badges',
+				'installation',
+				'usage',
+				'examples',
+				'tests',
+				'tests.unit',
+				'tests.coverage',
+				'license'
+			]
 		}, onFinish );
 
 		function onFinish( error ) {

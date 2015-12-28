@@ -97,7 +97,17 @@ describe( 'sync', function tests() {
 			'desc': 'Beep boop.',
 			'repo': 'jane/example',
 			'license': 'MIT',
-			'holder': 'Jane Doe'
+			'holder': 'Jane Doe',
+			'sections': [
+				'badges',
+				'installation',
+				'usage',
+				'examples',
+				'tests',
+				'tests.unit',
+				'tests.coverage',
+				'license'
+			]
 		});
 
 		fpath1 = path.join( dirpath, 'README.md' );
@@ -144,7 +154,17 @@ describe( 'sync', function tests() {
 			'desc': 'Beep boop.',
 			'repo': 'jane/example',
 			'license': 'WTFPL',
-			'holder': 'Jane Doe'
+			'holder': 'Jane Doe',
+			'sections': [
+				'badges',
+				'installation',
+				'usage',
+				'examples',
+				'tests',
+				'tests.unit',
+				'tests.coverage',
+				'license'
+			]
 		});
 
 		fpath1 = path.join( dirpath, 'README.md' );

@@ -207,6 +207,31 @@ describe( 'validate', function tests() {
 		}
 	});
 
+	it( 'should return an error if provided a sections option which is not a string array', function test() {
+		var values, err;
+
+		values = [
+			'5',
+			5,
+			null,
+			true,
+			undefined,
+			NaN,
+			[],
+			{},
+			function(){},
+			[ '5', 5 ],
+			[ '5', null ]
+		];
+
+		for ( var i = 0; i < values.length; i++ ) {
+			err = validate( {}, {
+				'sections': values[ i ]
+			});
+			assert.isTrue( err instanceof TypeError );
+		}
+	});
+
 	it( 'should return null if all options are valid', function test() {
 		var err;
 
@@ -216,7 +241,15 @@ describe( 'validate', function tests() {
 			'desc': 'Beep boop.',
 			'repo': 'jane/example',
 			'license': 'MIT',
-			'holder': 'Jane Doe'
+			'holder': 'Jane Doe',
+			'sections': [
+				'badges',
+				'installation',
+				'usage',
+				'examples',
+				'tests',
+				'license'
+			]
 		});
 
 		assert.isNull( err );

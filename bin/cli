@@ -89,6 +89,9 @@ if ( args.hasOwnProperty( 'license' ) ) {
 if ( args.hasOwnProperty( 'holder' ) ) {
 	opts.holder = args.holder;
 }
+if ( args.hasOwnProperty( 'sections' ) ) {
+	opts.sections = args.sections;
+}
 
 if ( args._.length ) {
 	dest = args._[ 0 ];

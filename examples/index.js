@@ -13,6 +13,23 @@ cp.sync( dirpath, {
 	'desc': 'Beep boop.',
 	'repo': 'janedoe/beep',
 	'license': 'MIT',
-	'holder': 'Jane Doe'
+	'holder': 'Jane Doe',
+	'sections': [
+		'badges',
+		'installation',
+		'usage',
+		'notes',
+		'examples',
+		'cli',
+		'cli.installation',
+		'cli.usage',
+		'cli.notes',
+		'cli.examples',
+		'tests',
+		'tests.unit',
+		'tests.coverage',
+		'tests.browsers',
+		'license'
+	]
 });
 

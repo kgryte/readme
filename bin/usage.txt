@@ -11,4 +11,5 @@ Options:
          --repo [repo]         Repository. Default: ''.
          --license [name]      License. Default: 'MIT'.
          --holder [holder]     Copyright author.
+         --sections [sections] Sections.
 

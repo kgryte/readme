@@ -40,6 +40,7 @@ The function accepts the following `options`:
 *	__repo__: Github repository.
 *	__license__: license. Default: [`'MIT'`](http://opensource.org/licenses/MIT).
 *	__holder__: copyright holder.
+*	__sections__: sections. Default: (template dependent).
 
 By default, a `node_module` template is used. To specify a different `README.md` template, set the `template` option.
 
@@ -98,7 +99,24 @@ cp.sync( dirpath, {
 	'desc': 'Beep boop.',
 	'repo': 'janedoe/beep',
 	'license': 'MIT',
-	'holder': 'Jane Doe'
+	'holder': 'Jane Doe',
+	'sections': [
+		'badges',
+		'installation',
+		'usage',
+		'notes',
+		'examples',
+		'cli',
+		'cli.installation',
+		'cli.usage',
+		'cli.notes',
+		'cli.examples',
+		'tests',
+		'tests.unit',
+		'tests.coverage',
+		'tests.browsers',
+		'license'
+	]
 });
 ```
 
@@ -136,6 +154,7 @@ Options:
          --repo [repo]         Repository. Default: ''.
          --license [name]      License. Default: 'MIT'.
          --holder [holder]     Copyright author.
+         --sections [sections] Sections.
 ```
 
 
@@ -152,7 +171,6 @@ To specify a destination other than the current working directory, provide a `de
 ``` bash
 $ readme ./../some/other/directory
 ```
-
 
 
 ---

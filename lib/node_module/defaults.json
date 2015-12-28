@@ -3,5 +3,22 @@
 	"desc": "",
 	"repo": "",
 	"license": "MIT",
-	"holder": ""
+	"holder": "",
+	"sections": [
+		"badges",
+		"installation",
+		"usage",
+		"notes",
+		"examples",
+		"cli",
+		"cli.installation",
+		"cli.usage",
+		"cli.notes",
+		"cli.examples",
+		"tests",
+		"tests.unit",
+		"tests.coverage",
+		"tests.browsers",
+		"license"
+	]
 }

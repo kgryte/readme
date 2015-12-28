@@ -1,8 +1,11 @@
 {{{title}}}
 ===
+{{#section:badges}}
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
+{{/section:badges}}
 
 > {{{desc}}}
+{{#section:installation}}
 
 
 ## Installation
@@ -10,6 +13,8 @@
 ``` bash
 $ npm install {{{title}}}
 ```
+{{/section:installation}}
+{{#section:usage}}
 
 
 ## Usage
@@ -26,6 +31,15 @@ What does `foo` do?
 foo()
 // returns `undefined`
 ```
+{{/section:usage}}
+{{#section:notes}}
+
+
+## Notes
+
+*	First note.
+{{/section:notes}}
+{{#section:examples}}
 
 
 ## Examples
@@ -39,10 +53,55 @@ To run the example code from the top-level application directory,
 ``` bash
 $ node ./examples/index.js
 ```
+{{/section:examples}}
+{{#section:cli}}
+
+
+---
+## CLI
+{{#section:cli:installation}}
+
+### Installation
+
+To use the module as a general utility, install the module globally
+
+``` bash
+$ npm install -g {{{title}}}
+```
+{{/section:cli:installation}}
+
+
+{{#section:cli:usage}}
+### Usage
+
+``` bash
+
+```
+{{/section:cli:usage}}
+{{#section:cli:notes}}
+
+
+### Notes
+
+* 	First note
+{{/section:cli:notes}}
+{{#section:cli:examples}}
+
+
+### Examples
+
+``` bash
+$
+```
+{{/section:cli:examples}}
+{{/section:cli}}
+{{#section:tests}}
+
 
 ---
 ## Tests
 
+{{#section:tests:unit}}
 ### Unit
 
 Unit tests use the [Mocha][mocha] test framework with [Chai][chai] assertions. To run the tests, execute the following command in the top-level application directory:
@@ -52,6 +111,8 @@ $ make test
 ```
 
 All new feature development should have corresponding unit tests to validate correct functionality.
+{{/section:tests:unit}}
+{{#section:tests:coverage}}
 
 
 ### Test Coverage
@@ -67,6 +128,28 @@ Istanbul creates a `./reports/coverage` directory. To access an HTML version of 
 ``` bash
 $ make view-cov
 ```
+{{/section:tests:coverage}}
+{{#section:tests:browsers}}
+
+
+### Browser Support
+
+This repository uses [Testling][testling] for browser testing. To run the tests in a (headless) local web browser, execute the following command in the top-level application directory:
+
+``` bash
+$ make test-browsers
+```
+
+To view the tests in a local web browser,
+
+``` bash
+$ make view-browser-tests
+```
+
+<!-- [![browser support][browsers-image]][browsers-url] -->
+{{/section:tests:browsers}}
+{{/section:tests}}
+{{#section:license}}
 
 
 ---
@@ -78,6 +161,7 @@ $ make view-cov
 ## Copyright
 
 Copyright &copy; {{year}}. {{#holder}}{{holder}}.{{/holder}}
+{{/section:license}}
 
 
 [npm-image]: http://img.shields.io/npm/v/{{{title}}}.svg
@@ -101,3 +185,4 @@ Copyright &copy; {{year}}. {{#holder}}{{holder}}.{{/holder}}
 [mocha]: http://mochajs.org/
 [chai]: http://chaijs.com
 [istanbul]: https://github.com/gotwarlost/istanbul
+[testling]: https://ci.testling.com
