@@ -1,11 +1,11 @@
 {{{title}}}
 ===
-{{#section:badges}}
+{{#sections.section:badges}}
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
-{{/section:badges}}
+{{/sections.section:badges}}
 
 > {{{desc}}}
-{{#section:installation}}
+{{#sections.section:installation}}
 
 
 ## Installation
@@ -13,8 +13,8 @@
 ``` bash
 $ npm install {{{title}}}
 ```
-{{/section:installation}}
-{{#section:usage}}
+{{/sections.section:installation}}
+{{#sections.section:usage}}
 
 
 ## Usage
@@ -31,15 +31,15 @@ What does `foo` do?
 foo()
 // returns `undefined`
 ```
-{{/section:usage}}
-{{#section:notes}}
+{{/sections.section:usage}}
+{{#sections.section:notes}}
 
 
 ## Notes
 
 *	First note.
-{{/section:notes}}
-{{#section:examples}}
+{{/sections.section:notes}}
+{{#sections.section:examples}}
 
 
 ## Examples
@@ -53,13 +53,13 @@ To run the example code from the top-level application directory,
 ``` bash
 $ node ./examples/index.js
 ```
-{{/section:examples}}
-{{#section:cli}}
+{{/sections.section:examples}}
+{{#sections.section:cli}}
 
 
 ---
 ## CLI
-{{#section:cli:installation}}
+{{#sections.section:cli:installation}}
 
 ### Installation
 
@@ -68,24 +68,24 @@ To use the module as a general utility, install the module globally
 ``` bash
 $ npm install -g {{{title}}}
 ```
-{{/section:cli:installation}}
+{{/sections.section:cli:installation}}
 
 
-{{#section:cli:usage}}
+{{#sections.section:cli:usage}}
 ### Usage
 
 ``` bash
 
 ```
-{{/section:cli:usage}}
-{{#section:cli:notes}}
+{{/sections.section:cli:usage}}
+{{#sections.section:cli:notes}}
 
 
 ### Notes
 
 * 	First note
-{{/section:cli:notes}}
-{{#section:cli:examples}}
+{{/sections.section:cli:notes}}
+{{#sections.section:cli:examples}}
 
 
 ### Examples
@@ -93,15 +93,15 @@ $ npm install -g {{{title}}}
 ``` bash
 $
 ```
-{{/section:cli:examples}}
-{{/section:cli}}
-{{#section:tests}}
+{{/sections.section:cli:examples}}
+{{/sections.section:cli}}
+{{#sections.section:tests}}
 
 
 ---
 ## Tests
 
-{{#section:tests:unit}}
+{{#sections.section:tests:unit}}
 ### Unit
 
 Unit tests use the [Mocha][mocha] test framework with [Chai][chai] assertions. To run the tests, execute the following command in the top-level application directory:
@@ -111,8 +111,8 @@ $ make test
 ```
 
 All new feature development should have corresponding unit tests to validate correct functionality.
-{{/section:tests:unit}}
-{{#section:tests:coverage}}
+{{/sections.section:tests:unit}}
+{{#sections.section:tests:coverage}}
 
 
 ### Test Coverage
@@ -128,8 +128,8 @@ Istanbul creates a `./reports/coverage` directory. To access an HTML version of 
 ``` bash
 $ make view-cov
 ```
-{{/section:tests:coverage}}
-{{#section:tests:browsers}}
+{{/sections.section:tests:coverage}}
+{{#sections.section:tests:browsers}}
 
 
 ### Browser Support
@@ -147,9 +147,9 @@ $ make view-browser-tests
 ```
 
 <!-- [![browser support][browsers-image]][browsers-url] -->
-{{/section:tests:browsers}}
-{{/section:tests}}
-{{#section:license}}
+{{/sections.section:tests:browsers}}
+{{/sections.section:tests}}
+{{#sections.section:license}}
 
 
 ---
@@ -161,7 +161,7 @@ $ make view-browser-tests
 ## Copyright
 
 Copyright &copy; {{year}}. {{#holder}}{{holder}}.{{/holder}}
-{{/section:license}}
+{{/sections.section:license}}
 
 
 [npm-image]: http://img.shields.io/npm/v/{{{title}}}.svg
