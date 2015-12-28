@@ -1,6 +1,6 @@
 {{{title}}}
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > {{{desc}}}
 
@@ -40,7 +40,7 @@ To run the example code from the top-level application directory,
 $ node ./examples/index.js
 ```
 
-
+---
 ## Tests
 
 ### Unit
@@ -83,11 +83,11 @@ Copyright &copy; {{year}}. {{#holder}}{{holder}}.{{/holder}}
 [npm-image]: http://img.shields.io/npm/v/{{{title}}}.svg
 [npm-url]: https://npmjs.org/package/{{{title}}}
 
-[travis-image]: http://img.shields.io/travis/{{{repo}}}/master.svg
-[travis-url]: https://travis-ci.org/{{{repo}}}
+[build-image]: http://img.shields.io/travis/{{{repo}}}/master.svg
+[build-url]: https://travis-ci.org/{{{repo}}}
 
-[codecov-image]: https://img.shields.io/codecov/c/github/{{{repo}}}/master.svg
-[codecov-url]: https://codecov.io/github/{{{repo}}}?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/{{{repo}}}/master.svg
+[coverage-url]: https://codecov.io/github/{{{repo}}}?branch=master
 
 [dependencies-image]: http://img.shields.io/david/{{{repo}}}.svg
 [dependencies-url]: https://david-dm.org/{{{repo}}}

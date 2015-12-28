@@ -1,6 +1,6 @@
 example
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Beep boop.
 
@@ -40,7 +40,7 @@ To run the example code from the top-level application directory,
 $ node ./examples/index.js
 ```
 
-
+---
 ## Tests
 
 ### Unit
@@ -83,11 +83,11 @@ Copyright &copy; 2015. Jane Doe.
 [npm-image]: http://img.shields.io/npm/v/example.svg
 [npm-url]: https://npmjs.org/package/example
 
-[travis-image]: http://img.shields.io/travis/jane/example/master.svg
-[travis-url]: https://travis-ci.org/jane/example
+[build-image]: http://img.shields.io/travis/jane/example/master.svg
+[build-url]: https://travis-ci.org/jane/example
 
-[codecov-image]: https://img.shields.io/codecov/c/github/jane/example/master.svg
-[codecov-url]: https://codecov.io/github/jane/example?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/jane/example/master.svg
+[coverage-url]: https://codecov.io/github/jane/example?branch=master
 
 [dependencies-image]: http://img.shields.io/david/jane/example.svg
 [dependencies-url]: https://david-dm.org/jane/example

@@ -1,6 +1,6 @@
 README
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Creates a `README.md` file.
 
@@ -198,11 +198,11 @@ Copyright &copy; 2015. Athan Reines.
 [npm-image]: http://img.shields.io/npm/v/@kgryte/readme.svg
 [npm-url]: https://npmjs.org/package/@kgryte/readme
 
-[travis-image]: http://img.shields.io/travis/kgryte/readme/master.svg
-[travis-url]: https://travis-ci.org/kgryte/readme
+[build-image]: http://img.shields.io/travis/kgryte/readme/master.svg
+[build-url]: https://travis-ci.org/kgryte/readme
 
-[codecov-image]: https://img.shields.io/codecov/c/github/kgryte/readme/master.svg
-[codecov-url]: https://codecov.io/github/kgryte/readme?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/kgryte/readme/master.svg
+[coverage-url]: https://codecov.io/github/kgryte/readme?branch=master
 
 [dependencies-image]: http://img.shields.io/david/kgryte/readme.svg
 [dependencies-url]: https://david-dm.org/kgryte/readme
