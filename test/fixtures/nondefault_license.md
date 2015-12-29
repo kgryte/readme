@@ -46,7 +46,7 @@ $ node ./examples/index.js
 
 ### Unit
 
-Unit tests use the [Mocha][mocha] test framework with [Chai][chai] assertions. To run the tests, execute the following command in the top-level application directory:
+This repository uses [tape][tape] for unit tests. To run the tests, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test
@@ -99,7 +99,6 @@ Copyright &copy; 2015. Jane Doe.
 [github-issues-image]: http://img.shields.io/github/issues/jane/example.svg
 [github-issues-url]: https://github.com/jane/example/issues
 
-[mocha]: http://mochajs.org/
-[chai]: http://chaijs.com
+[tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
 [testling]: https://ci.testling.com
